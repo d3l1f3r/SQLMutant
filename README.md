@@ -48,11 +48,13 @@ SQLMutant will perform domain enumeration in various ways from passive to active
 To use SQLMutant, you need to have the following tools installed:
 
 - uro: pip3 install uro or pipx install uro
+- apt-get install golang-go
+- export GOPATH=$HOME/go
+- export PATH=$PATH:$GOPATH/bin
 - go install github.com/tomnomnom/waybackurls@latest
 - apt-get install arjun
 - go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-- apt-get install jq
-- apt-get intall toilet
+- apt-get install jq toilet
 - Make sure SQLMap is installed
 
 # Installation
